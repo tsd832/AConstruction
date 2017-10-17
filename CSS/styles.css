@@ -123,7 +123,6 @@ header a:hover {
 /*  Boxes   */
 
 #boxes {
-
   background: #46535b;
   border-bottom: #e8491d 3px solid;
 }
@@ -135,17 +134,50 @@ header a:hover {
   padding: 10px;
 }
 
-#boxes .box img
-{
+#boxes .box img {
   width: 90px;
-
 }
 
-footer, footer p
-{
+footer, footer p {
   background: #57646c;
-  padding: 20px;
-  margin: 0;
-  text-align: left; 
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #fff;
+}
 
+/*  Media Querries    */
+
+@media(max-width:1250px) {
+  header #branding, header nav, header nav li, #boxes .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header #branding {
+    padding-bottom: 20px;
+  }
+  header {
+    padding-bottom: 20px;
+  }
+  #showcase h1 {
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 900px) {
+  #newsletter h1, #newsletter form {
+    float: none;
+    text-align: center;
+    width: 100%;
+
+  }
+  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
 }
