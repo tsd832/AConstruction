@@ -180,4 +180,17 @@ footer, footer p {
     display: block;
     width: 100%;
   }
+
+}
+
+@media(max-width: 500px)
+{
+  #showcase h1
+  {
+    font-size: 30px;
+  }
+
+  #showcase p{
+    font-size: 15px;
+  }
 }
