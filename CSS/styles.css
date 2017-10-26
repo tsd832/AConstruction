@@ -198,6 +198,12 @@ footer, footer p
       text-align: center;
     }
 
+    #main-menu ul li a
+    {
+      display: block;
+      width: 100%;
+    }
+
     #main-menu
     {
       display: none;
@@ -218,3 +224,4 @@ footer, footer p
       width: 100%;
       margin-bottom: 10px;
     }
+}
