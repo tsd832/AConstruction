@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #666666;
+  background-color: #57646c;
 }
 
 
@@ -129,7 +129,7 @@ header a:hover {
 
 /*  Boxes   */
 
-#boxes {
+#boxes, #services, #contact, #portfolio, #about {
 
   background: #46535b;
   border-bottom: #e8491d 3px solid;
