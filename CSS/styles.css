@@ -195,12 +195,6 @@ footer, footer p
 }
 
 
-@media(max-width: 1750px){
-    #main-menu{
-      display: block;
-    }
-}
-
 @media(max-width: 960px){
     #newsletter h1,
     #newsletter form,
